@@ -8,6 +8,7 @@ services:
     name: directus
     plan: free
     healthCheckPath: /server/health
+    startCommand: directus bootstrap && directus start
     envVars:
       - key: DB_CLIENT
         value: pg
