@@ -10,7 +10,7 @@ services:
     healthCheckPath: /server/health
     envVars:
       - key: DB_CLIENT
-        value: postgres
+        value: pg
       - key: DB_HOST
         value: ignore
       - key: DB_PORT
@@ -30,7 +30,7 @@ services:
       - key: SECRET
         generateValue: true
       - key: ADMIN_PASSWORD
-        generateValue: true
+        value: admin123
       - key: ADMIN_EMAIL
         value: 'barakplasma@gmail.com'
       - key: LOG_STYLE
