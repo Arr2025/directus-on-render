@@ -13,19 +13,15 @@ services:
       - key: DB_CLIENT
         value: pg
       - key: DB_HOST
-        value: ignore
+        value: dpg-d0kpok0gjchc73ehvt0g-a
       - key: DB_PORT
         value: 5432
       - key: DB_USER
-        value: ignore
+        value: directus_db_jb9k_user
       - key: DB_DATABASE
-        value: ignore
+        value: directus_db_jb9k
       - key: DB_PASSWORD
-        value: ignore 
-      - key: DB_CONNECTION_STRING
-        fromDatabase:
-          name: vue-js-israel-db
-          property: connectionString
+        value: MTq9eJh4yw1nclRFxWzKVoBcyqdfqrsZ 
       - key: KEY
         generateValue: true
       - key: SECRET
