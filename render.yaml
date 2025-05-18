@@ -32,7 +32,7 @@ services:
       - key: ADMIN_PASSWORD
         value: admin123
       - key: ADMIN_EMAIL
-        value: 'barakplasma@gmail.com'
+        value: 'admin@example.com'
       - key: LOG_STYLE
         value: raw
       - key: CORS_ENABLED
